@@ -5,7 +5,7 @@
 
 	<groupId>com.sail</groupId>
 	<artifactId>boss</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
 	<name>boss</name>
@@ -68,7 +68,7 @@
 
 		<dependency>
 			<groupId>com.sail</groupId>
-			<artifactId>sail.service</artifactId>
+			<artifactId>sail.services</artifactId>
 			<version>1.0-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
