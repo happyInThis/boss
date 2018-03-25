@@ -10,6 +10,6 @@ import org.springframework.context.annotation.ImportResource;
 public class BossApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BossApplication.class, args);
+		SpringApplication.run(BossApplication.class, args);  
 	}
 }
