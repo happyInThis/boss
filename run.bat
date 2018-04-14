@@ -1,2 +1,2 @@
-java -jar target/boss-1.0.0.jar
+java -jar services/target/services-1.0.0.jar
 pause
