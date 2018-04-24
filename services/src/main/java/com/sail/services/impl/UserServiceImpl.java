@@ -1,10 +1,8 @@
 package com.sail.services.impl;
 
 import com.sail.common.bo.UserBo;
-import com.sail.dal.mapper.UserMapper;
 import com.sail.dal.model.User;
 import com.sail.service.UserService;
-import org.springframework.beans.factory.annotation.Autowired;
 
 import javax.annotation.Resource;
 import java.util.ArrayList;

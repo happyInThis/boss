@@ -9,7 +9,7 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>dal</artifactId>
-    <version>${parent.version}</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <name>dal</name>

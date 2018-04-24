@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <artifactId>common</artifactId>
-    <version>${parent.version}</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <name>common</name>
@@ -21,4 +21,16 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.sail</groupId>
+            <artifactId>dal</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sail</groupId>
+            <artifactId>sail.services</artifactId>
+        </dependency>
+    </dependencies>
 </project>
